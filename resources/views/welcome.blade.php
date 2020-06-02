@@ -33,7 +33,7 @@
 
                         @if(Session::has('result'))
                             <div class="alert alert-success" role="alert">
-                                Ваша ссылка
+                                Your shortened link
                                 <input type="text"
                                        class="form-control"
                                        placeholder="{{Session::get('result')}}"
